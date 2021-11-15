@@ -1,0 +1,38 @@
+[
+    {
+    "price": 590,
+    "id": 1,
+    "title": "Hamburguesa",
+    "imagen": "../imagenes/imagenesPuestico/Haburguesa de pollo_HDR.jpg"
+    },
+    {
+    "price": 520,
+    "id": 2,
+    "title": "Arepitas fritas",
+    "imagen": "../imagenes/imagenesPuestico/Arepitas_tapitas mechada1HDR.jpg"
+    },
+    {
+    "price": 440,
+    "id": 3,
+    "title": "Tequeños",
+    "imagen": "../imagenes/imagenesPuestico/20211027_233845.jpg"
+    },
+    {
+    "price": 130,
+    "id": 4,
+    "title": "Pepsi Común",
+    "imagen": "../imagenes/imagenesPuestico/pepsi.png"
+    },
+    {
+    "price": 130,
+    "id": 5,
+    "title": "7up",
+    "imagen": "../imagenes/imagenesPuestico/7up.png"
+    },
+    {
+    "price": 240,
+    "id": 6,
+    "title": "Heineken",
+    "imagen": "../imagenes/imagenesPuestico/patagonia.png"
+    }
+]
