@@ -102,6 +102,12 @@ const setCarrito= objeto=>{
         const clone=templateFooter.cloneNode(true);
         fragment.appendChild(clone);
         footer.appendChild(fragment)
+        // const btnComprar=document.getElementById('comprar-carrito');
+        // btnComprar.addEventListener('click', ()=>{
+        //     carrito={};
+        //     printCart();
+            
+        // })
         const btnVaciar=document.getElementById('vaciar-carrito');
         btnVaciar.addEventListener('click', ()=>{
             carrito={};
@@ -135,7 +141,16 @@ const setCarrito= objeto=>{
         e.stopPropagation();
     }
 
+    //btnPagar
+    const btnPagar= document.getElementById('btnPago')
 
+    btnPagar.addEventListener('click',funcPagar);
+    function funcPagar(){
+    event.preventDefault();
+    
+        window.location.href ="gracias.html"
+
+    }
 
     
 

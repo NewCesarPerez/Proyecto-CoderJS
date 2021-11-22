@@ -50,17 +50,37 @@
   --bs-gutter-x: 0rem;
 }
 
-.footer {
-  background-color: #e9c46a;
-  height: 100%;
+.footerIconos {
+  color: #AC292F;
 }
 
-.footer div ul {
+.footerLogo {
+  background-color: red;
+  height: 15rem;
+  width: 20rem;
+}
+
+.imgLogoFooter {
+  height: 15rem;
+  width: 20rem;
+}
+
+.footer {
+  background-color: #E5B704;
+}
+
+.footer div ul li {
+  color: red;
   list-style: none;
   text-decoration: none;
 }
 
-.footer a:link {
+.iconos {
+  color: #AC292F;
+  font-size: 3rem;
+}
+
+.footerLogo a:link {
   text-decoration: none;
 }
 
@@ -85,8 +105,12 @@
   width: 20rem;
 }
 
+.imgCarrito {
+  width: 100%;
+  height: 11.5rem;
+}
+
 html, body {
-  height: 100%;
   font-family: 'Numans', sans-serif;
 }
 
@@ -165,6 +189,10 @@ input:focus {
 
 .links a {
   margin-left: 4px;
+}
+
+.c-secundario {
+  color: #AC292F;
 }
 
 #takeaway-home {
