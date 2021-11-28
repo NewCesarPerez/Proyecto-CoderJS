@@ -75,6 +75,11 @@ background-repeat: no-repeat;
     height: 15rem;
     width: 20rem;
 }
+
+.mapsFooter{
+    height: 18rem;
+    width: 30rem;
+}
 .footer{
     background-color: #E5B704;
     
@@ -200,6 +205,15 @@ width: 100px;
 color: black;
 background-color: $colorSecundario;
 }
+
+.map_btn{
+    color: #FFC312;
+    background-color:$colorSecundario;
+    width: 13rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    }
 
 .links{
 color: $colorSecundario;
