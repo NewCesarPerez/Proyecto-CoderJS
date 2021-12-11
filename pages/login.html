@@ -14,25 +14,55 @@
     <!--Fontawesome CDN-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <title>LOGIN COCINA</title>
+    <title>Login</title>
 </head>
 <body>
+    <header>
+        <!-- navbar: Comienzo -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom c-violeta">
+            <div class="container-fluid"> <div class="navbar-brand fw-bold animate__animated animate__rubberBand " ><span class="titulo__index">El Puestico Burger</span> </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Trabaja con nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="zulianidad.html">Zulianidad</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar: fin -->
+    </header>
+
 <div class="row w-100">
-    <div id="divLogo" class="col-lg-6">
 
+    
 
-    </div>
-
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-12">
         <div class="d-flex justify-content-around h-100 my-4">
+            <div id="divForImg" >
+                <img id="imgLogo" class="d-flex " src="../imagenes/imagenesPuestico/logoPuesticoBurger.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6 col-md-12">
+        <div class="d-flex justify-content-around h-100 my-4 mb-5 ms-4">
             <div class="card">
 
                 <div class="card-header">
                     <h3>Sign In</h3>
                     <div class="d-flex justify-content-end social_icon">
-                        <span><i class="fab fa-facebook-square"></i></span>
-                        <span><i class="fab fa-google-plus-square"></i></span>
-                        <span><i class="fab fa-twitter-square"></i></span>
+                        <a href="https://es-la.facebook.com/"><span><i class="fab fa-facebook-square"></i></span></a>
+                        <a href="https://www.google.com/?hl=es"><span><i class="fab fa-google-plus-square"></i></span></a>
+                        <a href="https://twitter.com/?lang=es"><span><i class="fab fa-twitter-square"></i></span></a>
                     </div>
                 </div>
                 <div class="card-body">
@@ -70,14 +100,41 @@
             </div>
         </div>
     </div>
-
 </div>
-    
-    
+<!-- Footer: Comienzo-->
+<!-- Footer: Comienzo-->
+
+<!-- Footer: Comienzo-->
+<footer class="container-fluid  footer">
+    <div class="container border-bottom p-5 ">
+        <div class="row c-segundario d-flex justify-content-around align-items-center">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex flex-column text-center justify-content-between align-items-center mb-5" id="divMaps">
+            </div>
+            <!-- Redes sociales: Inicio -->
+            <div class="col-12 col-lg-3 marginRedes">
+                <h4 class="c-secundario col-12 text-center text-lg-center">Nuestras Redes </h4>
+                <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-center footer__iconos">
+                    <a  href="https://www.instagram.com/"><i class="iconos bi-instagram mx-5"></i></a>
+                    <a  href="https://www.whatsapp.com/"><i class="iconos bi-whatsapp mx-5"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Copyright: Inicio -->
+        <div class="col-12 d-flex flex-column text-center justify-content-evenly align-items-center mt-5">
+            <p class="col-12 c-secundario" id="copyRight"> César Pérez &copy 2021, Todos los derechos reservados.</p>
+        </div>
+        </div>
+        <!-- Copyright: fin -->
+    </div>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/wow.min.js"></script>    
-    <!-- <script src="../js/create.js"></script> -->
+    <script src="../js/mapsJQ.js"></script> 
     <script src="../js/login.js"></script>
+    
 
 </body>
 </html>

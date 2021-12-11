@@ -3,6 +3,8 @@ const inputPass=document.getElementById('passId');
 const login=document.getElementById('btLogin')
 const user="rocio"
 const password=123456;
+
+
 login.addEventListener('click',funcLogin);
 function funcLogin(){
     event.preventDefault();
@@ -22,6 +24,5 @@ function funcLogin(){
         
     }
 
-
-
 }
+

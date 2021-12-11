@@ -1,0 +1,22 @@
+[
+
+    {
+        "name": "La Chinita",
+        "review": "Cada 18 de noviembre se celebra el Día de la Virgen de Chiquinquirá, o también conocida como la Virgen de la Chinita.",
+        "image": "../imagenes/imagenesPuestico/lachinita.jpg"
+    },
+    {
+        "name": "La Basílica",
+        "review": "La Basílica de Nuestra Señora de Chiquinquirá, es el templo católico más concurrido del estado Zulia.",
+        "image": "../imagenes/imagenesPuestico/basilica.jpg"
+    },
+    {
+        "name": "El Puente Rafael Urdaneta",
+        "review": "Conocido como puente sobre el Lago, conecta a la ciudad mas bella con el resto del país. Es el tercer puente más largo de latinoamerica.",
+        "image": "../imagenes/imagenesPuestico/puenteTres.jpg"
+    }
+
+
+
+
+]

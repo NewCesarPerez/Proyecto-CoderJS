@@ -37,7 +37,7 @@
 }
 
 .titulo__index {
-  color: #e76f51;
+  color: #AC292F;
 }
 
 .imagenUno__index {
@@ -95,6 +95,13 @@
 
 .marginRedes {
   margin-right: 5rem;
+}
+
+@media (max-width: 990px) {
+  .marginRedes {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 .imagenUno__index {
@@ -209,6 +216,39 @@ input:focus {
   color: #AC292F;
 }
 
+.headerContacto {
+  color: #AC292F;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+
+.btn-primary {
+  color: #AC292F;
+  background-color: #FFC312;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #FFC312;
+}
+
+.cursor:hover {
+  cursor: pointer;
+}
+
+.colorPrimario {
+  color: #FFC312;
+}
+
+.colorSecundario {
+  color: #AC292F;
+}
+
 #takeaway-home {
   position: relative;
   margin-top: 1rem;
@@ -232,12 +272,23 @@ input:focus {
 }
 
 #divLogo {
-  background-image: url(../imagenes/imagenesPuestico/logoPuesticoBurger.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 33rem;
   margin-top: 1rem;
-  width: 30rem;
+  width: 25rem;
+}
+
+#divForImg {
+  background-color: #AE2733;
+  padding: 1rem;
+  margin: 2rem;
+  margin-left: 10rem;
+  height: 30rem;
+  width: 25rem;
+}
+
+#imgLogo {
+  height: 30rem;
+  width: 25rem;
 }
 
 #h1Carrito {

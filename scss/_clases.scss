@@ -1,6 +1,7 @@
 //Variables
 
 $colorSecundario:#AC292F;
+$colorPrimario:#FFC312;
 
 //Variables
 .div__Index{
@@ -47,7 +48,7 @@ background-repeat: no-repeat;
 }
 
 .titulo__index{
-    color: #e76f51;
+    color: $colorSecundario;
 }
 .imagenUno__index{
         vertical-align: middle;
@@ -82,6 +83,7 @@ background-repeat: no-repeat;
 }
 .footer{
     background-color: #E5B704;
+   
     
     div ul li{
         color: red;
@@ -106,6 +108,14 @@ background-repeat: no-repeat;
 }
 .marginRedes{
     margin-right: 5rem;
+}
+
+@media(max-width: 990px){
+
+    .marginRedes{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 .imagenUno__index{
@@ -225,4 +235,35 @@ margin-left: 4px;
 
 .c-secundario{
     color:$colorSecundario;
+}
+.headerContacto {
+    color: $colorSecundario;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.btn-primary{
+color: $colorSecundario;
+background-color: #FFC312;
+border: none;
+
+
+}
+
+.btn-primary:hover{
+    background-color: #FFC312;   
+}
+.cursor:hover{
+    cursor: pointer;
+}
+.colorPrimario{
+    color: $colorPrimario;
+}
+.colorSecundario{
+    color: $colorSecundario;
 }

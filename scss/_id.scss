@@ -23,12 +23,26 @@
 
 
 #divLogo{
-    background-image: url(../imagenes/imagenesPuestico/logoPuesticoBurger.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+
     height: 33rem;
     margin-top: 1rem;
-    width: 30rem;
+    width: 25rem;
+}
+#divForImg{
+
+    background-color:#AE2733;
+
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 10rem;
+    height: 30rem;
+    width: 25rem;
+}
+
+#imgLogo{
+    height: 30rem;
+    width: 25rem;
 }
 #h1Carrito{
     color:#E7B504;
@@ -41,3 +55,8 @@
 #card-footer{
     color:#AE2733;
 }
+// #divForBackground{
+    
+//     background-image: url(../imagenes/imagenesPuestico/logoPuesticoBurger.jpg);
+//     background-size:cover;
+// }
