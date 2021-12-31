@@ -42,7 +42,7 @@ const printCards=data=>{
         
     })
     cards.appendChild(fragment);
-    // console.log(data)
+    
 }
 
 
@@ -102,12 +102,7 @@ const setCarrito= objeto=>{
         const clone=templateFooter.cloneNode(true);
         fragment.appendChild(clone);
         footer.appendChild(fragment)
-        // const btnComprar=document.getElementById('comprar-carrito');
-        // btnComprar.addEventListener('click', ()=>{
-        //     carrito={};
-        //     printCart();
-            
-        // })
+        
         const btnVaciar=document.getElementById('vaciar-carrito');
         btnVaciar.addEventListener('click', ()=>{
             carrito={};
@@ -119,7 +114,7 @@ const setCarrito= objeto=>{
         console.log(e.target);
         //Accion de aumentar
         if(e.target.classList.contains('btn-info')){
-            // carrito[e.target.dataset.id]
+            
             const producto=carrito[e.target.dataset.id]
             producto.cantidad++;
             carrito[e.target.dataset.id]={...producto};
@@ -127,7 +122,7 @@ const setCarrito= objeto=>{
         }
         //Accion disminuir
         if(e.target.classList.contains('btn-danger')){
-            // carrito[e.target.dataset.id]
+            
             const producto=carrito[e.target.dataset.id];
             producto.cantidad--;
             carrito[e.target.dataset.id]={...producto};

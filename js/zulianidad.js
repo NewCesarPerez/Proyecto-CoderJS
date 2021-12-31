@@ -18,10 +18,7 @@ $("#btn1").click(()=>{
                         </div>
                     `);
                     $("#fadeIn").addClass("d-flex");
-                    $("#fadeIn").fadeToggle(1500);
-
-                    
-                    
+                    $("#fadeIn").fadeToggle(1500);       
             }
             
             $("#btn1").fadeOut(2500);
