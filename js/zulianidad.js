@@ -1,7 +1,7 @@
-const URLGET="../zul.json"
+const URLGET="../zul.json" 
 $("#h1Zulianidad").append('<h1 class="text-center cursor mt-5" id="btn1"><span class="colorPrimario">¿Quieres conocer un poco</span> <span class="colorSecundario">mas sobre nuestra tierra?</span></h1>');
 $("#btn1").click(()=>{
-    $.getJSON(URLGET, function(respuesta,estado){
+    $.getJSON('../zul.json', function(respuesta,estado){
         if(estado==="success"){
             let misDatos=respuesta;
             
