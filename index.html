@@ -4,98 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index page where you can log in into the Puestico web application.">
+    <meta name="keywords" content="PUESTICO, BURGER, PATACON, AREPA, FRITA, FRITURA, MARACAIBO, MARACUCHO, FAST FOOD, STREET FOOD, PAN, POLLO, LOMITO, QUESO">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./estilos/animate.css">
-    <link rel="stylesheet" href="./estilos/bootstrap.min.css">
-    <link rel="stylesheet" href="./scss/disenio.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos/animate.css">
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/disenio.css">
+    <!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Login: Puestico Burger</title>
 </head>
 <body>
     <header>
-
         <!-- navbar: Comienzo -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom c-violeta">
-        <div class="container-fluid"> <a class="navbar-brand fw-bold animate__animated animate__rubberBand " href="index.html"><span class="titulo__index">El Puestico Burger</span> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav w-100 justify-content-end">
-                    <li class="nav-item ">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/work.html">Trabaja con nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/zulianidad.html">Zulianidad</a>
+            <div class="container-fluid"> <div class="navbar-brand fw-bold animate__animated animate__rubberBand " ><span class="titulo__index">El Puestico Burger</span> </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Login</a>
                         </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/work.html">Trabaja con nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/zulianidad.html">Zulianidad</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar: fin -->
+    </header>
+
+<div class="row w-100">
+
+    
+
+    <div class="col-lg-6 col-md-12">
+        <div class="d-flex justify-content-around h-100 my-4">
+            <div id="divForImg" >
+                <img id="imgLogo" class="d-flex " src="../imagenes/imagenesPuestico/logoPuesticoBurger.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6 col-md-12">
+        <div class="d-flex justify-content-around h-100 my-4 mb-5 ms-4">
+            <div class="card">
+
+                <div class="card-header">   
+                    <h3>Sign In</h3>
+                    <div class="d-flex justify-content-end social_icon">
+                        <a href="https://es-la.facebook.com/"><span><i class="fab fa-facebook-square"></i></span></a>
+                        <a href="https://www.google.com/?hl=es"><span><i class="fab fa-google-plus-square"></i></span></a>
+                        <a href="https://twitter.com/?lang=es"><span><i class="fab fa-twitter-square"></i></span></a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            </div>
+                            <input id="userId" type="text" class="form-control" placeholder="username">
+                            
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input id="passId" type="password" class="form-control" placeholder="password">
+                        </div>
+                        <div class="row align-items-center remember">
+                            <input type="checkbox">Remember Me
+                        </div>
+                        <div class="form-group">
+                            <input id="btLogin" type="submit" value="Login" class="btn float-right login_btn">
+                        </div>
+                    </form>
+                </div>
+                <div id='card-footer'>
+                    
+                    <!-- <div class="d-flex justify-content-center links">
+                        Don't have an account?<a href="#">Sign Up</a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a href="#">Forgot your password?</a>
+                    </div> -->
                 </div>
             </div>
-        </nav>
-        <!-- navbar: fin -->
-    </header>
-        <main>
-            <section class="row">
-                <div class="col-12 div__Index">
-                    <img class="img__Index" src="./imagenes/pexels-jonathan-borba-2983101.jpg" alt="Plato de hamburguesa">
-                </div>
-            </section>
-            <section class="row section2">
-                <div class="col-6 divVertical__Index">
-                    <img class="img__Index" src="imagenes/pexels-valeria-boltneva-580612.jpg" alt="">
-                </div>
-                <div class="col-6 divVertical__Index d-flex flex-column align-items-center justify-content-center text-center">
-                    
-                    <img class="col-12 imgVertical__Index" src="imagenes/imagenesPuestico/logoPuesticoBurger.jpg" alt="">
-                    <a class="col- my-5"  id="takeaway-home" href="">
-                        <h4>TAKE AWAY</h4>
-                    </a>
-                    <p class="col-12" id="p_index">PEDI PARA LLEVAR</p>
-                    
-                    <a class="a__pedido" href="./pages/login.html">
-                        ¡HACE TU PEDIDO!
-                    </a>
-                    
-                    
-                </div>
-            </section>
-            <section class="row">
-                <div class="col-12 div__Index">
-                    <img class=" img__Index" src="imagenes/pexels-horizon-content-3742373.jpg" alt="">
-                </div>
-            </section>
-        </main>
+        </div>
+    </div>
+</div>
 
-        <!-- Footer: Comienzo-->
-    <footer class="container-fluid  footer">
-        <div class="container border-bottom p-5 ">
-            <div class="row c-segundario d-flex justify-content-around align-items-center">
-                <div class="footerLogo col-6 col-sm-6 col-lg-4 d-flex flex-column text-center justify-content-between align-items-center">
-                    <img  class="imgLogoFooter"src="./imagenes/imagenesPuestico/logoPuesticoBurger.jpg" alt="">
-                </div>
-                <!-- Redes sociales: Inicio -->
-                <div class="col-6 col-lg-3 marginRedes">
+<!-- Footer: Comienzo-->
+<footer class="container-fluid  footer">
+    <div class="container border-bottom">
+        <div class="row c-segundario d-flex justify-content-around align-items-center">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex flex-column text-center justify-content-between align-items-center mt-5 mb-5" id="divMaps">
+            </div>
+            <!-- Redes sociales: Inicio -->
+            <div class="col-12 col-lg-3 marginRedes mt-5">
+                
                     <h4 class="c-secundario col-12 text-center text-lg-center">Nuestras Redes </h4>
                     <div class="col-12 d-flex flex-row justify-content-center justify-content-lg-center footer__iconos">
                         <a  href="https://www.instagram.com/"><i class="iconos bi-instagram mx-5"></i></a>
                         <a  href="https://www.whatsapp.com/"><i class="iconos bi-whatsapp mx-5"></i></a>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- Copyright: Inicio -->
-            <div class="col-12 d-flex flex-column text-center justify-content-evenly align-items-center">
-                <p class="col-12 c-secundario" id="copyRight"> César Pérez &copy 2021, Todos los derechos reservados.</p>
+                    
             </div>
             </div>
-            <!-- Copyright: fin -->
+            
         </div>
-    </footer>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/wow.min.js"></script>    
+        
+        <div class="row d-flex flex-row justify-content-around mt-5">
+            <div class="col-4">
+                <img class="imgFooter" src="./imagenes/imagenesPuestico/redflag-min.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="imgFooter" src="./imagenes/imagenesPuestico/holapuestico-min.jpg" alt="">
+            </div>
+            
+            <div class="col-4">
+                <img class="imgFooter"  src="./imagenes/imagenesPuestico/noimportaquehoraes-min.jpg" alt="">
+            </div>
+        </div>
+        <!-- Copyright: Inicio -->
+        <div class="row d-flex flex-row justify-content-around">
+        <div class="col-12 d-flex flex-column text-center justify-content-evenly align-items-center mt-4">
+            <p class="col-12 c-secundario" id="copyRight"> César Pérez &copy 2021, Todos los derechos reservados.</p>
+        </div>
+        </div>
+        <!-- Copyright: fin -->
+    </div>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>    
+    <script src="js/mapsJQ.js"></script> 
+    <script src="js/login.js"></script>
+    
+
 </body>
 </html>

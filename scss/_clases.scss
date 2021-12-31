@@ -72,6 +72,10 @@ background-repeat: no-repeat;
     
 }
 
+.imgFooter{
+    width: 15rem;
+}
+
 .imgLogoFooter{
     height: 15rem;
     width: 20rem;
@@ -249,14 +253,30 @@ margin-left: 4px;
 
 .btn-primary{
 color: $colorSecundario;
-background-color: #FFC312;
-border: none;
+background-color: $colorPrimario;
+border:none;
+font-weight: bold;
 
 
 }
 
+
+.btn-danger{
+    color:$colorPrimario;
+    background-color: $colorSecundario;
+    border:none;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
 .btn-primary:hover{
     background-color: #FFC312;   
+}
+.btn-danger:hover{
+    background-color: $colorSecundario;   
 }
 .cursor:hover{
     cursor: pointer;
@@ -267,3 +287,12 @@ border: none;
 .colorSecundario{
     color: $colorSecundario;
 }
+
+//Imagenes Carrousel
+
+.carrousel{
+    width: 58%;
+    height: 50%;
+    
+}
+

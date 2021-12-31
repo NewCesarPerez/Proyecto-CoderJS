@@ -12,7 +12,7 @@ function funcLogin(){
     const inputPassValue=inputPass.value;
 
     if(inputNameValue===user&&inputPassValue==password){
-        window.location.href ="carrito.html"
+        window.location.href ="./pages/carrito.html"
 
     }
     else{
